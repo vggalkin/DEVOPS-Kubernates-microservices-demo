@@ -127,6 +127,11 @@ docker-swarm.box
 *.tfvars
 join.sh
 output-virtualbox-iso
+variables.tf
+deploy/docker-swarm/infra/yandex/.terraform/*
+deploy/docker-swarm/infra/yandex/.terraform.lock.hcl
+deploy/docker-swarm/infra/yandex/terraform.tfstate
+deploy/docker-swarm/infra/yandex/terraform.tfstate.backup
 
 # Ignore grafanalib output
 /graphs/__pycache__/
